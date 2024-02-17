@@ -7,11 +7,12 @@ import Hero from "@/components/Hero";
 export default function Home() {
   return (
     <>
+      // TODO: add some server actions
       <Hero />
       <Camp />
       <Guide />
       <Features />
       <GetApp />
     </>
-  )
+  );
 }
